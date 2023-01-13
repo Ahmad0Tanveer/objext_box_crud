@@ -1,0 +1,36 @@
+name: objext_box_crud
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  objectbox: ^1.7.0
+  objectbox_flutter_libs: any
+  faker: any
+  get: any
+  nb_utils: ^4.6.25
+  path_provider: any
+  path: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  objectbox_generator: any
+  build_runner: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
